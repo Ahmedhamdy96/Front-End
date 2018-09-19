@@ -2,6 +2,15 @@
 <html>          <!-- Root Element -->
     <head>      <!-- Meta Data about the page -->
         <title> Tap Name </title>
+        <style>
+            .horizontalList /* styling with css using class name */
+            {
+                float: left;               /* like taking a backspace to move it up */
+                list-style-type: none ;    /* removing the items markers */
+                margin: 10px ;             /* margin is a space arround the element */
+                border: 2px solid black ;  /* border is a strok arround the element */
+            }
+        </style>
     </head>
     <body>      <!-- Contains the visable part of the page -->
         <h1>Heading of size 1 [ the largest one ] </h1>
@@ -166,8 +175,12 @@
         </ol>
         <br /><br />
 
-
-
+        <!-- Creating a Horizontal List -->
+        <ul>
+            <li class="horizontalList" >Home </li>  <!-- give them a class to style with it -->
+            <li class="horizontalList" >About </li>
+            <li class="horizontalList" >Contacts </li>
+        </ul>
 
 
 
